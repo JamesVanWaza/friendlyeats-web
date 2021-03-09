@@ -1,2 +1,7 @@
 .firebaserc
 /node_modules/
+public/
+.DS_Store
+src/.gitattributes
+*.log
+src/js/friendlyeats.js

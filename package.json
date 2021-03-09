@@ -1,15 +1,47 @@
 {
-  "name": "fireats",
-  "version": "0.0.0",
-  "description": "Starting point for the Cloud Firestore codelab",
-  "main": ".",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "fmt": "prettier --write scripts/* styles/*"
-  },
-  "author": "",
-  "devDependencies": {
-    "eslint": "^4.17.0",
-    "prettier": "^1.5.3"
-  }
+    "name": "fireats-firestore-codelab",
+    "version": "1.1.1",
+    "description": "Starting point for the Cloud Firestore codelab",
+    "main": ".",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "css-loader": "^5.1.1",
+        "extract-loader": "^5.1.0",
+        "favicons-webpack-plugin": "^5.0.2",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.1",
+        "jquery": "^3.6.0",
+        "node-sass": "^5.0.0",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.24.4",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "scripts": {
+        "build": "webpack -w",
+        "start": "webpack serve"
+    },
+    "author": "JamesVanWaza <info@dosbranding.com>",
+    "devDependencies": {
+        "eslint": "^7.21.0",
+        "prettier": "^2.2.1"
+    },
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamesVanWaza/friendlyeats-web.git"
+    },
+    "keywords": [
+        "Cloud",
+        "Firestore"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JamesVanWaza/friendlyeats-web/issues"
+    },
+    "homepage": "https://github.com/JamesVanWaza/friendlyeats-web#readme"
 }

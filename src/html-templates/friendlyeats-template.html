@@ -1,55 +1,15 @@
-<!doctype html>
-<!--
-  Copyright 2015 Google Inc. All rights reserved.
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-      https://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Learn how to use the Firebase platform on the Web">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FriendlyEats</title>
-
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no">
-    <link rel="icon" href="images/favicon.ico">
-
-    <!-- Web Application Manifest -->
-    <link rel="manifest" href="manifest.json">
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="FriendlyEats">
-    <meta name="theme-color" content="#4285F4">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="FriendlyEats">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#4285F4">
-
-    <!-- Tile icon for Win8 -->
-    <!-- <meta name="msapplication-TileColor" content="#3372DF">
-  <meta name="msapplication-navbutton-color" content="#303F9F"> -->
-
-    <!-- Material Design Components -->
+    <title>Start SASS</title>
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.39.3/dist/material-components-web.min.css" type="text/css">
     <script src="https://unpkg.com/material-components-web@0.39.3/dist/material-components-web.js"></script>
 
-    <!-- App Styling -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/styles/main.css" type="text/css">
 </head>
 
 <body>
@@ -93,8 +53,8 @@
                 </div>
                 <br />
                 <a class="mdc-button" id="add_mock_data">
-        Add mock data
-      </a>
+                Add mock data
+            </a>
             </div>
         </div>
 
@@ -106,8 +66,8 @@
                 </div>
                 <br />
                 <a class="mdc-button" data-fir-click="add_mock_data">
-          Add mock ratings
-        </a>
+                Add mock ratings
+            </a>
             </div>
         </div>
 
@@ -150,8 +110,8 @@
                                     <span data-fir-content="city"></span>
                                 </div>
                                 <button id="show-add-review" data-fir-click="show_add_review" class="mdc-button fab">
-                      <i class="material-icons">add</i>
-                    </button>
+                                <i class="material-icons">add</i>
+                            </button>
                             </div>
                         </div>
                     </div>
@@ -346,18 +306,7 @@
             <div class="mdc-dialog__backdrop"></div>
         </aside>
     </div>
-
-    <script src="/__/firebase/8.2.10/firebase-app.js"></script>
-    <script src="/__/firebase/8.2.10/firebase-auth.js"></script>
-    <script src="/__/firebase/8.2.10/firebase-firestore.js"></script>
-    <script src="/__/firebase/init.js"></script>
-
-    <script src="//unpkg.com/navigo@6"></script>
-
-    <script src="/scripts/FriendlyEats.js"></script>
-    <script src="/scripts/FriendlyEats.View.js"></script>
-    <script src="/scripts/FriendlyEats.Mock.js"></script>
-    <script src="/scripts/FriendlyEats.Data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/navigo/8.9.1/navigo.min.js"></script>
 </body>
 
 </html>
